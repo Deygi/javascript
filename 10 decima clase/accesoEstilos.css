@@ -1,0 +1,17 @@
+div{
+    width: 200px;
+    height: 200px;
+    background: grey;
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #AAAAAA
+
+}
+.azul{
+    background: blue;
+    border: 1px solid #AAAAAA;
+}
+.rojo{
+    background: purple;
+    border: 1px solid  #AAAAAA;
+}
