@@ -1,4 +1,4 @@
-//obtencion de un elemento
+    //obtencion de un elemento
 document.getElementById("cambiarContenido").addEventListener("click",cambiaContenido);
 
  function cambiaContenido() {
