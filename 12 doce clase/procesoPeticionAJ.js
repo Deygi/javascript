@@ -2,7 +2,7 @@
 document.getElementById("cambiarContenido").addEventListener("click",cambiaContenido);
 
  function cambiaContenido() {
-     var xhr = new XMLHttpRequest();
+     var xhr = new XMLHttpRequest(); //creacion de un objeto XMLHttpRequest
      xhr.onreadystatechange=function() {
          if (this.readyState==4 && this.status==200) {
              document.getElementById("texto").innerHTML=this.responseText;
